@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        ROOT_PATH  =  "/Users/d1358180/Downloads/apache-tomcat-10.1.8"
+        ROOT_PATH  =  "/Users/manojvarma/Desktop/NCS_Demo/apache-tomcat-9.0.58"
         APP_PATH   =  "$ROOT_PATH/webapps"
         TEMP_DIR   =  "${env.WORKSPACE}/sample"
     }
