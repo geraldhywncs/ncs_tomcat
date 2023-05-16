@@ -1,7 +1,8 @@
 pipeline {
     agent any
     environment {
-        ROOT_PATH  =  "/apache-tomcat-9.0.58"
+//         ROOT_PATH  =  "/apache-tomcat-9.0.58"
+        ROOT_PATH  =  "C:\Program Files\Apache Software Foundation\Tomcat 10.1"
         APP_PATH   =  "$ROOT_PATH/webapps"
         TEMP_DIR   =  "${env.WORKSPACE}/web-thymeleaf-war"
     }
