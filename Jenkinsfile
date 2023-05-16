@@ -28,7 +28,8 @@ pipeline {
             steps {
                 echo "Stop catalina"
                 sh '''
-
+                
+                  pwd
                   cd $ROOT_PATH
                   pwd
                   ./bin/catalina.sh stop
